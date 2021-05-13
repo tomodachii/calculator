@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "KoHo", sans-serif;
+  background-color: #e9e9e9;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator {
+  position: relative;
+  width: 420px;
+  height: 620px;
+  border-radius: 10px;
+  box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  outline: none;
+}
+
+#result {
+  height: 110px;
+  background-color: #749583;
+  margin: 10px 25px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: inset -6px -6px 9px #749583, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+  text-shadow: -1px -1px 2px #749583, 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#result #history {
+  height: 28.8px;
+  background-color: #749583;
+}
+#result #history p {
+  font-size: 22px;
+  background-color: #749583;
+}
+#result #output {
+  height: 50.4px;
+  background-color: #749583;
+}
+#result #output p {
+  background-color: #749583;
+  font-size: 39px;
+}
+
+#brand {
+  margin: 10px 25px;
+}
+#brand h2 {
+  font-size: 110%;
+  display: inline;
+}
+#brand p {
+  float: right;
+}
+
+#keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operator,
+.number,
+.empty {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 20px;
+  border-radius: 50%;
+  border-width: 0;
+}
+
+.operator,
+.number {
+  cursor: pointer;
+  box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:hover,
+.number:hover {
+  background-color: #ccc;
+}
+.operator:active,
+.number:active {
+  box-shadow: inset -6px -6px 9px #fff, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+
+.operator:nth-child(1) {
+  background-color: #fa8231;
+}
+.operator:nth-child(1):active {
+  box-shadow: inset -6px -6px 9px #fa8231, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(2) {
+  background-color: #fa8231;
+}
+.operator:nth-child(2):active {
+  box-shadow: inset -6px -6px 9px #fa8231, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(3) {
+  background-color: #d980fa;
+}
+.operator:nth-child(3):active {
+  box-shadow: inset -6px -6px 9px #d980fa, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(4) {
+  background-color: #ff9ff3;
+}
+.operator:nth-child(4):active {
+  box-shadow: inset -6px -6px 9px #ff9ff3, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(8) {
+  background-color: #feca57;
+}
+.operator:nth-child(8):active {
+  box-shadow: inset -6px -6px 9px #feca57, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(12) {
+  background-color: #ff6b6b;
+}
+.operator:nth-child(12):active {
+  box-shadow: inset -6px -6px 9px #ff6b6b, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(16) {
+  background-color: #48dbfb;
+}
+.operator:nth-child(16):active {
+  box-shadow: inset -6px -6px 9px #48dbfb, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.operator:nth-child(20) {
+  background-color: #1dd1a1;
+}
+.operator:nth-child(20):active {
+  box-shadow: inset -6px -6px 9px #1dd1a1, inset 2px 2px 9px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=main.css.map */
